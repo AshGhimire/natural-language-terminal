@@ -4,7 +4,7 @@ from langchain_core.globals import set_debug
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 
-from langchain_only.ShellCommand import ShellCommand
+from natural_language_terminal.ShellCommand import ShellCommand
 
 SYSTEM_PROMPT = """You are a macOS and zsh terminal expert.
 Translate the user's request into a single shell command that runs on macOS.
